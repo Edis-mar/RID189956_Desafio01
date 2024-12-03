@@ -1,0 +1,13 @@
+*{
+    margin: 0px;
+    font-family: inter;
+}
+#menusuperior{
+    background-color: #303030;
+    color: #FFFFFF;
+}
+#titulo-menusuperior{
+    margin-left: 50px;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
