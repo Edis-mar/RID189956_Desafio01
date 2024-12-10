@@ -2,6 +2,9 @@
     margin: 0px;
     font-family: inter;
 }
+
+
+
 #menusuperior{
     background-color: #303030;
     color: #FFFFFF;
@@ -29,6 +32,10 @@
     align-items: start;
     margin: 60px 0px 50px 0px; 
 }
+
+
+
+
 .section{
   display: flex;
   flex-direction: row; 
@@ -57,13 +64,33 @@ padding-left: 5px;
 }
 
 
+
+
+
 #formulario{
 background-color: #303030;
 color: #FFFFFF;
 text-align: center;
 }
-.inputs{
+
+#titulo-formulario{
+padding-top: 60px;
+padding-bottom: 40px;
+font-size: 10;
+}
+form{
 display: flex;
 flex-direction: column;
-
+align-content: space-around;
+align-items: center;
+}
+input{
+width: 488px;
+height: 58px;
+border: 0px;
+border-radius: 6px;
+background-color: #FFFFFF;
+cursor:pointer;
+padding-left: 20px;
+font-size: 17px;
 }
