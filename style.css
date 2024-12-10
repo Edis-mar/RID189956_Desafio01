@@ -40,24 +40,30 @@
 display: flex;
 flex-direction: column;
 gap: 30px; 
-
 }
 #titulo-biografia{
-background-color: aqua;
-
+font-size: 15;
 }
 #texto-biografia{
-background-color: red;
-flex-grow: 20;;
-}
-#alinhamento-texto{
-display: flex;
-align-items: stretch;
+font-size: 20px;
 }
 #imagem{
-Width: 410px;
-Height:405px;
+Width: 510px;
+Height:605px;
 align-self: center;
-padding-top: 50px;
-padding-bottom: 50px;
+padding-top: 60px;
+padding-bottom: 60px;
+padding-left: 5px;
+}
+
+
+#formulario{
+background-color: #303030;
+color: #FFFFFF;
+text-align: center;
+}
+.inputs{
+display: flex;
+flex-direction: column;
+
 }
