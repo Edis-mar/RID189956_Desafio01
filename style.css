@@ -10,6 +10,7 @@
     margin-left: 50px;
     padding-top: 120px;
     padding-bottom: 20px;
+    font-size: 40px;
 }
 #texto-menusuperior{
     margin-left: 45px;
@@ -27,4 +28,36 @@
     flex-direction: column;
     align-items: start;
     margin: 60px 0px 50px 0px; 
+}
+.section{
+  display: flex;
+  flex-direction: row; 
+  justify-content: space-evenly;
+  align-items: center;
+
+}
+#biografia{
+display: flex;
+flex-direction: column;
+gap: 30px; 
+
+}
+#titulo-biografia{
+background-color: aqua;
+
+}
+#texto-biografia{
+background-color: red;
+flex-grow: 20;;
+}
+#alinhamento-texto{
+display: flex;
+align-items: stretch;
+}
+#imagem{
+Width: 410px;
+Height:405px;
+align-self: center;
+padding-top: 50px;
+padding-bottom: 50px;
 }
