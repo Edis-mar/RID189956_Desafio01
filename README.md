@@ -1,4 +1,4 @@
-LANDING-PAGE-ARQUITETURA
+LANDING-PAGE-ARQUITETURA:
   um projeto de uma landing page para uma empresa de arquitetura
 
   ## Descrição
