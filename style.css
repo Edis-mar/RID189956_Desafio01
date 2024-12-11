@@ -81,16 +81,31 @@ font-size: 10;
 form{
 display: flex;
 flex-direction: column;
-align-content: space-around;
+align-content: space-between;
 align-items: center;
+gap: 10px;
 }
 input{
-width: 488px;
-height: 58px;
+width: 450px;
+height: 50px;
 border: 0px;
 border-radius: 6px;
 background-color: #FFFFFF;
 cursor:pointer;
 padding-left: 20px;
 font-size: 17px;
+}
+
+button{
+background-color:#C07212;
+color: #FFFFFF;
+width: 250px;
+height: 70px;
+border: 0px;
+border-radius: 6px;
+margin-top: 30px;
+margin-bottom: 60px;
+font-weight: 700;
+font-size: 25px;
+cursor: pointer;
 }
